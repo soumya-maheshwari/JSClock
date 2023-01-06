@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  align-items: center;
+
+  background-color: grey;
+}
+
+#clock {
+  font-size: 303px;
+  text-align: center;
+  color: white;
+  height: auto;
+  background-color: #373b36;
+  width: 1700px;
+  align-items: center;
+  margin-left: 150px;
+  margin-right: 40px;
+  border: 23px solid black;
+  border-radius: 30px;
+  margin-top: 200px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+@media only screen and (max-width: 600px) {
+  body {
+    width: 600px;
+  }
+}
